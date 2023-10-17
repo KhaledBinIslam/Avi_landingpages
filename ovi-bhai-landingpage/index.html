@@ -10,25 +10,7 @@
     <link rel="stylesheet" href="/dist/output.css">
     <!-- swiperjs link  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <!-- Meta Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1463862541138629');
-        fbq('track', 'PageView');
-    </script>
-    <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1463862541138629&ev=PageView&noscript=1" />
-    <!-- End Meta Pixel Code -->
+
 
 
 </head>
@@ -397,7 +379,7 @@
                         করুন
                     </h5>
                     <div>
-                        <form>
+                        <form onsubmit="emailSend(); reset(); return false;">
                             <div class="mb-3">
                                 <div>
                                     <label for="name" class="block text-sm text-white font-bold ">আপনার
@@ -481,7 +463,7 @@
 
                             </div>
 
-                            <button onclick="emailSend(); reset(); return false; "
+                            <button
                                 class="bg-emerald-500 hover:bg-emerald-600 rounded w-full text-white py-3 shadow-lg shadow-black "
                                 type="submit">
                                 অর্ডার কনফার্ম করুন
