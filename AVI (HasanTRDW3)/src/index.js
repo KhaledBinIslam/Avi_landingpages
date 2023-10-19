@@ -62,3 +62,15 @@ function emailSend() {
     );
 
 }
+
+
+ //disable-right-click-image
+ document.addEventListener('DOMContentLoaded', function () {
+    var images = document.getElementsByClassName('disable-right-click-image');
+
+    for (var i = 0; i < images.length; i++) {
+        images[i].addEventListener('contextmenu', function (event) {
+            event.preventDefault(); // Prevent the default right-click context menu
+        });
+    }
+});
