@@ -131,3 +131,18 @@ span:nth-child(9) {
         filter: blur(0);
     }
 }
+
+/* .mainDiv{
+  max-width: ;
+} */
+
+.socialMedia{
+  background-color: white;
+  border-radius: 8px;
+  z-index: 50;
+  position: fixed;
+  right: 15px;
+  bottom: 75px;
+  height: auto;
+  width: auto;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Onest&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: linear-gradient(to right, #2c3e50,
+            #3498db);
+    font-family: 'Onest', sans-serif;
+
+}
+
+/* health prodcuts scroll  */
+
+.wrapper {
+    display: flex;
+
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 5px;
+
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper .item {
+
+    box-shadow: 5px 10px 10px black;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+/* swiper style */
+
+.img-box img {
+    max-width: 100%;
+}
+
+.slider-container .container {
+    padding: 0 10px;
+    max-width: 400px;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.review-container .rev-container {
+    padding: 0 15px;
+    max-width: 400px;
+    height: 50%;
+    margin: 0 auto;
+}
+
+
+#logo-name {
+    font-family: 'Croissant One', cursive;
+    font-weight: 800;
+}
+
+
+
+.right-fixed-button{
+    position: fixed;
+    right: 20px ;
+    bottom: 20px;
+    z-index: 1;
+
+}
+
+.whatsapp {
+    width: 70px;
+    font-size: 20px;
+    background-color: rgb(85, 226, 85);
+    border-radius: 20px;
+}
+
+.messenger {
+    width: 70px;
+    font-size: 20px;
+    background-color: rgb(85, 144, 226);
+    border-radius: 20px;
+}

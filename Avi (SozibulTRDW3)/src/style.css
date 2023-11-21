@@ -9,9 +9,10 @@
 
 body {
 
-    background-image: linear-gradient(to right, #2c3e50,
-            #3498db);
+    /* background-image: linear-gradient(to right, #2c3e50,
+            #3498db); */
     font-family: 'Onest', sans-serif;
+    background-color: #B6DBF2;
 
 }
 
@@ -131,4 +132,16 @@ span:nth-child(9) {
         opacity: 1;
         filter: blur(0);
     }
+}
+
+.headline{
+ color: #3b68cd
+}
+
+.customBtn{
+  background-color: #3bcd77 !important;
+}
+
+.textHeadlin{
+  font-size: 30px;
 }
